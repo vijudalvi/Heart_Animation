@@ -1,0 +1,24 @@
+
+.heart{
+    display: block;
+    margin: 200px auto;
+    animation-name: vijay;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    filter: drop-shadow(30px 10px 4px #dd6f44);
+    
+}
+@keyframes vijay {
+    0%{
+
+        transform: scale(1,1);
+    }
+    100%{
+
+        transform: scale(2,2);
+
+
+    }
+    
+}
